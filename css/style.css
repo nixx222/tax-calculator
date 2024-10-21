@@ -1,0 +1,118 @@
+/* steps: variables to store the info that the use is giving (income, per, location)
+submit function - event listener
+toggle: I need something in the html that keeps the text, but for now it's empty. (display block/none) - it's the summary div that toggles, by default it's display: none;
+manipulate the dom
+- When I call the function, create a template literal to change the text in the HTML; Here use the variables to show their information as part of the text. 
+ */
+
+ .montserrat {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  h2 {
+    font-weight: normal;
+    font-size: medium;
+  }
+  
+  h1 {
+    font-size: x-large;
+  }
+
+  body {
+    font-family: "Montserrat";
+  }
+  
+  #result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .grossIncome {
+    
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: end;
+    gap: 1rem;
+    
+  }
+
+  form {
+   
+  }
+
+
+  select, label {
+    display: grid;
+    grid-row: 2/3;
+    border-radius: 1rem;
+    padding: .5rem;
+  }
+
+  select, input {
+   background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  select:hover {
+    background-color: #e0e0e0;
+  }
+
+  label {
+  font-size: smaller;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:
+  }
+
+  img {
+    max-width: 30%;
+    grid-row:1/5;
+    grid-column: 2/3;
+
+  }
+
+  .body-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem;
+    border-bottom:#F2F2F2 solid thin;
+    margin-left: 10%;
+  }
+
+
+  #calculateBtn {
+    background-color: #E34B31; 
+    color: white; 
+    border: none; 
+    border-radius: 50px; 
+    padding: 12px 32px; 
+    font-size: 15px; 
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transition for hover and active effects */
+}
+
+#calculateBtn:hover {
+    background-color: #D6432A; 
+}
+
+/* Active (pressed) effect */
+#calculateBtn:active {
+    transform: scale(0.98); 
+}
+
+

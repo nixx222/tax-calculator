@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<div class="body-daddy">
+
+    <body>
+        <div class="body-wrapper">
+            <div class="grid-container">
+                <hgroup>
+                    <h1>Income tax calculator USA</h1>
+                    <h2>Find out how much your salary is after tax</h2>
+                </hgroup>
+            </div>
+            <form id="myForm" action="#" class="form-container">
+                <div class="grossIncome">
+                    <label for="incomeInput">Enter your gross income</label>
+                    <input type="number" id="incomeInput" placeholder="Gross Income">
+                </div>
+                <div class="per">
+                    <label for="incomeType">Per</label>
+                    <select name="annualSelect" id="annualSelect">
+                        <option disabled selected value> </option>
+                        <option value="Annual">Annual</option>
+                    </select>
+                </div>
+                <div class="state">
+                    <label for="stateSelect">Select your state</label>
+                    <select id="stateSelect">
+                        <option disabled selected value> </option>
+                        <option value="colorado">Colorado</option>
+                        <option value="oregon">Oregon</option>
+                        <option value="utah">Utah</option>
+                        <option value="washington">Washington</option>
+                    </select>
+                </div>
+                <div class="calculate-button">
+                    <button id="calculateBtn">Calculate</button>
+                </div>
+            </form>
+            <img src="img/F2CC1C4B-6C1B-4240-BE9E-131558EB7D71.jpeg" alt="logo">
+        </div>
+        <div id="result" style="display: none;">
+            <h3>Summary</h3>
+            <div class="tliteral"></div>
+            <h3>Bonus Example</h3>
+            <div class="tliteral2"></div>
+        </div>
+</div>
+<script src="js/custom.js"></script>
+</body>
+</div>
+
+</html>
